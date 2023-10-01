@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #1d1d23;
+}
+input {
+  border: none;
+  background-color: transparent;
+  width: 70px;
+  font-size: 40px;
+  text-align: center;
+  margin-inline: 10px;
+  text-decoration: underline;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  width: 849px;
+  height: 132px;
+  border-radius: 20px;
+  background: #34344a;
+}
+button {
+  border-radius: 20px;
+  background-color: yellow;
+  color: black;
+  font-weight: 900;
+  padding: 10px 40px;
+  border: none;
+  margin-inline: 10px;
+}
+#app-heading {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#active-timers {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#current-timer {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 50px;
+  background: #39393e;
+  width: 413px;
+  height: 66px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+#active-timers > div {
+  width: 849px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 48px;
+  height: 132px;
+  border-radius: 20px;
+  background: #34344a;
+}
